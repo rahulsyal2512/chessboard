@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100vh;
+	height: 100vh;
+}
+.board {
+	width: 300px;
+	height: 300px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	display: flex;
+	flex-wrap: wrap;
+	cursor: pointer;
+}
+.white {
+	background: white;
+}
+.black {
+	background: black;
+}
+.red {
+	background: red;
+}
